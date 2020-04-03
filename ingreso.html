@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="diseño.css">
+
+</head>
+<style>
+    h1 { color:darkblue; }
+ 
+  </style>
+<body>
+
+  
+        
+  <h1>Formulario Mariana Reyes</h1>  
+
+  
+    <form action="datos.php" method="post" >
+        <div class="form-example">
+          <label for="name">Nombre: </label>
+          <input type="text" name="name" id="name" required>
+        </div>   
+
+        <div class="form-example">
+            <label for="name">Apellidos: </label>
+            <input type="text" name="name" id="name" required>
+          </div> 
+
+          <div class="form-example">
+            <label for="name">No. de carnet: </label>
+            <input type="text" name="name" id="name" required>
+          </div>  
+
+          <label for="phone">numero de tel:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="8"
+       required>
+
+        <div class="form-example">
+          <label for="email"> Coreo electronico: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+
+<label for="pass">contraseña</label>
+<input type="password">
+
+
+
+     <label for="tentacles">edad:</label>
+     <input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+
+       <h3>Genero</h3> 
+<div>
+    <input type="radio" id="huey" name="drone" value="huey"
+           checked>
+    <label for="huey">Mujer</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="dewey" name="drone" value="dewey">
+    <label for="dewey">Hombre</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="louie" name="drone" value="louie">
+    <label for="louie">Otro</label>
+  </div>
+
+  <label for="tentacles">Numero de cursos que desea apreder :</label>
+  <input type="number" id="tentacles" name="tentacles"
+    min="3" max="6">
+
+    <h3>Seleccione el curso que quiere aprender</h3>
+    
+    <label>
+      
+      <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">Fisica cuantica</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns">
+        <label for="horns">Introduccion a los sistemas de computo</label>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns">
+            <label for="horns">Algoritmos</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns">
+            <label for="horns">Estadistica</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns">
+            <label for="horns">Desarrollo Web</label>
+          </div>
+          
+          <br>
+           
+          <IMG SRC="23.jpg" style="width:250px;height:250px">
+
+        </div>
+  
+        <input class="favorite styled"
+       type="button"
+       value="Ingresar" input style="background-color:#DEB7F2" value="Buscar" name="button" type="submit"/>
+
+       <input type="reset" value="Restaurar formulario"  input style="background-color:#63A2F0" value="Buscar" name="button" type="submit"/>
+
+       
+       <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="">Ingreso</a></li>
+    <li><a href="pagina/galeria.html">Galeria</a></li>
+    <li><a href="pagina/video.html">Video</a></li>
+
+
+
+
+</ul>
+</nav>
+    
+      </form>
+</body>
+</html>

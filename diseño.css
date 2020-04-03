@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(22.png);
+background-size: 93% 93%;
+background-attachment: fixed;
+}
+
+.navegacion{
+
+    width: 1000px;
+    margin: 30px auto;
+    background:#000 ;
+
+}
+
+
+.navegacion ul{
+    list-style: none;
+}
+
+
+.menu > li{ 
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.menu > li > a{ 
+    display: block;
+    padding: 15px 20px;
+    color: #c4b3d5;
+    font-size: "open sans";
+    text-decoration: none;
+    
+}
+
+.menu  li  a:hover{ 
+    color:  rgb(255, 255, 255);
+    transition: all .3s;
+}
